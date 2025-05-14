@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const local_url = 'mongodb://127.0.0.1:27017/api'
-const live_URL = 'mongodb+srv://chacha45454:ram123@cluster0.edlqo.mongodb.net/Mernstack ?retryWrites=true&w=majority&appName=Cluster0'
+const live_URL = 'mongodb+srv://chacha45454:ram123@cluster0.edlqo.mongodb.net/apidata?retryWrites=true&w=majority&appName=Cluster0'
 
 
 const connectDB = async () => {
