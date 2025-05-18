@@ -26,7 +26,7 @@ class TeacherController {
             return res.status(200).json({
                 success: true,
                 message: "Data Displayed Done!",
-                data: teacher
+                teacher
             })
         } catch (error) {
             console.log(error)
@@ -39,7 +39,7 @@ class TeacherController {
             return res.status(200).json({
                 success: true,
                 message: "Data view Done!",
-                data: teacher
+                teacher
             })
         } catch (error) {
             console.log(error)
@@ -58,7 +58,7 @@ class TeacherController {
             return res.status(201).json({
                 success: true,
                 message: "Data Updated sucessfully!",
-                data: teacher
+                teacher
             })
         } catch (error) {
             console.log(error)
@@ -71,7 +71,7 @@ class TeacherController {
             return res.status(200).json({
                 success: true,
                 message: "Data Successfully Deleted",
-                data: teacher
+                teacher
             })
         } catch (error) {
 
